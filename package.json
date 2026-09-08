@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "prepare": "husky",
+    "lint": "lint-staged --all"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+      "oxlint --deny-warnings --fix"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.5.0",
+    "oxlint": "^1.82.0"
+  }
+}

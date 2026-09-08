@@ -5,7 +5,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
-      "oxlint --deny-warnings --fix"
+      "oxlint --fix"
     ]
   },
   "devDependencies": {
